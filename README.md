@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Saurabh-Yadav31/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0049-group-anagrams](https://github.com/Saurabh-Yadav31/DSA/tree/master/0049-group-anagrams) |
 | [0136-single-number](https://github.com/Saurabh-Yadav31/DSA/tree/master/0136-single-number) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/Saurabh-Yadav31/DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -51,4 +52,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0387-first-unique-character-in-a-string](https://github.com/Saurabh-Yadav31/DSA/tree/master/0387-first-unique-character-in-a-string) |
+## Math
+|  |
+| ------- |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/Saurabh-Yadav31/DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
+## Number Theory
+|  |
+| ------- |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/Saurabh-Yadav31/DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
 <!---LeetCode Topics End-->
