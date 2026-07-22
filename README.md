@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Saurabh-Yadav31/DSA/tree/master/0049-group-anagrams) |
 | [0136-single-number](https://github.com/Saurabh-Yadav31/DSA/tree/master/0136-single-number) |
 | [1260-shift-2d-grid](https://github.com/Saurabh-Yadav31/DSA/tree/master/1260-shift-2d-grid) |
+| [1480-running-sum-of-1d-array](https://github.com/Saurabh-Yadav31/DSA/tree/master/1480-running-sum-of-1d-array) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Saurabh-Yadav31/DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
 ## Bit Manipulation
 |  |
@@ -85,4 +86,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0412-fizz-buzz](https://github.com/Saurabh-Yadav31/DSA/tree/master/0412-fizz-buzz) |
 | [1260-shift-2d-grid](https://github.com/Saurabh-Yadav31/DSA/tree/master/1260-shift-2d-grid) |
+## Prefix Sum
+|  |
+| ------- |
+| [1480-running-sum-of-1d-array](https://github.com/Saurabh-Yadav31/DSA/tree/master/1480-running-sum-of-1d-array) |
 <!---LeetCode Topics End-->
