@@ -7,3 +7,16 @@ class Solution {
         return nums;
     }
 }
+
+/*
+we can solve it by creating a new output array
+int[] ans = new int[nums.length];
+int sum = 0;
+
+for (int i = 0; i < nums.length; i++) {
+    sum += nums[i];
+    ans[i] = sum;
+}
+
+return ans;
+*/
