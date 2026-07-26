@@ -14,10 +14,13 @@ class Solution {
 
             int sum = digit + (k % 10);
 
-            ans.add(0, sum % 10);
+            ans.add(sum % 10);
 
             k = (k / 10) + (sum / 10);
         }
+
+        Collections.reverse(ans);
+
         return ans;
     }
 }
