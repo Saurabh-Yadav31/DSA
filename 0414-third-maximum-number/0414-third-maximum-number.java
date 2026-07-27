@@ -39,3 +39,33 @@ class Solution {
         return (int) third;
     }
 }
+
+/* we can solve it by sorting it also
+import java.util.Arrays;
+
+class Solution {
+    public int thirdMax(int[] nums) {
+
+        Arrays.sort(nums);
+
+        int count = 1;
+        int n = nums.length;
+
+        // Traverse from second last element
+        for (int i = n - 2; i >= 0; i--) {
+
+            // Count only distinct elements
+            if (nums[i] != nums[i + 1]) {
+                count++;
+
+                if (count == 3) {
+                    return nums[i];
+                }
+            }
+        }
+
+        // Less than 3 distinct elements
+        return nums[n - 1];
+    }
+}
+*/
