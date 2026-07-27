@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Saurabh-Yadav31/DSA/tree/master/0049-group-anagrams) |
 | [0066-plus-one](https://github.com/Saurabh-Yadav31/DSA/tree/master/0066-plus-one) |
 | [0136-single-number](https://github.com/Saurabh-Yadav31/DSA/tree/master/0136-single-number) |
+| [0414-third-maximum-number](https://github.com/Saurabh-Yadav31/DSA/tree/master/0414-third-maximum-number) |
 | [0989-add-to-array-form-of-integer](https://github.com/Saurabh-Yadav31/DSA/tree/master/0989-add-to-array-form-of-integer) |
 | [1260-shift-2d-grid](https://github.com/Saurabh-Yadav31/DSA/tree/master/1260-shift-2d-grid) |
 | [1480-running-sum-of-1d-array](https://github.com/Saurabh-Yadav31/DSA/tree/master/1480-running-sum-of-1d-array) |
@@ -52,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/Saurabh-Yadav31/DSA/tree/master/0049-group-anagrams) |
+| [0414-third-maximum-number](https://github.com/Saurabh-Yadav31/DSA/tree/master/0414-third-maximum-number) |
 ## Queue
 |  |
 | ------- |
