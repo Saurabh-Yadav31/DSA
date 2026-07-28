@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Saurabh-Yadav31/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Saurabh-Yadav31/DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0125-valid-palindrome](https://github.com/Saurabh-Yadav31/DSA/tree/master/0125-valid-palindrome) |
+| [0189-rotate-array](https://github.com/Saurabh-Yadav31/DSA/tree/master/0189-rotate-array) |
 | [0344-reverse-string](https://github.com/Saurabh-Yadav31/DSA/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Saurabh-Yadav31/DSA/tree/master/0345-reverse-vowels-of-a-string) |
 ## String
@@ -33,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Saurabh-Yadav31/DSA/tree/master/0049-group-anagrams) |
 | [0066-plus-one](https://github.com/Saurabh-Yadav31/DSA/tree/master/0066-plus-one) |
 | [0136-single-number](https://github.com/Saurabh-Yadav31/DSA/tree/master/0136-single-number) |
+| [0189-rotate-array](https://github.com/Saurabh-Yadav31/DSA/tree/master/0189-rotate-array) |
 | [0414-third-maximum-number](https://github.com/Saurabh-Yadav31/DSA/tree/master/0414-third-maximum-number) |
 | [0989-add-to-array-form-of-integer](https://github.com/Saurabh-Yadav31/DSA/tree/master/0989-add-to-array-form-of-integer) |
 | [1260-shift-2d-grid](https://github.com/Saurabh-Yadav31/DSA/tree/master/1260-shift-2d-grid) |
@@ -66,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0066-plus-one](https://github.com/Saurabh-Yadav31/DSA/tree/master/0066-plus-one) |
+| [0189-rotate-array](https://github.com/Saurabh-Yadav31/DSA/tree/master/0189-rotate-array) |
 | [0412-fizz-buzz](https://github.com/Saurabh-Yadav31/DSA/tree/master/0412-fizz-buzz) |
 | [0989-add-to-array-form-of-integer](https://github.com/Saurabh-Yadav31/DSA/tree/master/0989-add-to-array-form-of-integer) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Saurabh-Yadav31/DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
