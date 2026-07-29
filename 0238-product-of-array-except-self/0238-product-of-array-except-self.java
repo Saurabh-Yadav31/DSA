@@ -20,3 +20,14 @@ class Solution {
     return answer;
     }
 }
+
+// Algorithm for revision:
+// 1. Create an answer array.
+// 2. Store the product of all elements to the LEFT of each index in answer[].
+//    - answer[0] = 1 because there are no elements to the left.
+// 3. Traverse from right to left while maintaining rightProduct.
+//    - Initially rightProduct = 1 because there are no elements to the right of the last index.
+// 4. For each index:
+//    - Multiply answer[i] with rightProduct.
+//    - Update rightProduct by multiplying it with nums[i].
+// 5. Return answer[].
