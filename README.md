@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Saurabh-Yadav31/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0041-first-missing-positive](https://github.com/Saurabh-Yadav31/DSA/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/Saurabh-Yadav31/DSA/tree/master/0049-group-anagrams) |
 | [0066-plus-one](https://github.com/Saurabh-Yadav31/DSA/tree/master/0066-plus-one) |
 | [0136-single-number](https://github.com/Saurabh-Yadav31/DSA/tree/master/0136-single-number) |
@@ -50,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0041-first-missing-positive](https://github.com/Saurabh-Yadav31/DSA/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/Saurabh-Yadav31/DSA/tree/master/0049-group-anagrams) |
 | [0387-first-unique-character-in-a-string](https://github.com/Saurabh-Yadav31/DSA/tree/master/0387-first-unique-character-in-a-string) |
 ## Sorting
