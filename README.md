@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Saurabh-Yadav31/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0041-first-missing-positive](https://github.com/Saurabh-Yadav31/DSA/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/Saurabh-Yadav31/DSA/tree/master/0049-group-anagrams) |
+| [0053-maximum-subarray](https://github.com/Saurabh-Yadav31/DSA/tree/master/0053-maximum-subarray) |
 | [0066-plus-one](https://github.com/Saurabh-Yadav31/DSA/tree/master/0066-plus-one) |
 | [0136-single-number](https://github.com/Saurabh-Yadav31/DSA/tree/master/0136-single-number) |
 | [0189-rotate-array](https://github.com/Saurabh-Yadav31/DSA/tree/master/0189-rotate-array) |
@@ -107,4 +108,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Saurabh-Yadav31/DSA/tree/master/0238-product-of-array-except-self) |
 | [1480-running-sum-of-1d-array](https://github.com/Saurabh-Yadav31/DSA/tree/master/1480-running-sum-of-1d-array) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/Saurabh-Yadav31/DSA/tree/master/0053-maximum-subarray) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/Saurabh-Yadav31/DSA/tree/master/0053-maximum-subarray) |
 <!---LeetCode Topics End-->
