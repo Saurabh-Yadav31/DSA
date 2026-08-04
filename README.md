@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Saurabh-Yadav31/DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0125-valid-palindrome](https://github.com/Saurabh-Yadav31/DSA/tree/master/0125-valid-palindrome) |
 | [0189-rotate-array](https://github.com/Saurabh-Yadav31/DSA/tree/master/0189-rotate-array) |
+| [0287-find-the-duplicate-number](https://github.com/Saurabh-Yadav31/DSA/tree/master/0287-find-the-duplicate-number) |
 | [0344-reverse-string](https://github.com/Saurabh-Yadav31/DSA/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Saurabh-Yadav31/DSA/tree/master/0345-reverse-vowels-of-a-string) |
 ## String
@@ -38,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/Saurabh-Yadav31/DSA/tree/master/0136-single-number) |
 | [0189-rotate-array](https://github.com/Saurabh-Yadav31/DSA/tree/master/0189-rotate-array) |
 | [0238-product-of-array-except-self](https://github.com/Saurabh-Yadav31/DSA/tree/master/0238-product-of-array-except-self) |
+| [0287-find-the-duplicate-number](https://github.com/Saurabh-Yadav31/DSA/tree/master/0287-find-the-duplicate-number) |
 | [0414-third-maximum-number](https://github.com/Saurabh-Yadav31/DSA/tree/master/0414-third-maximum-number) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Saurabh-Yadav31/DSA/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0485-max-consecutive-ones](https://github.com/Saurabh-Yadav31/DSA/tree/master/0485-max-consecutive-ones) |
@@ -52,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0136-single-number](https://github.com/Saurabh-Yadav31/DSA/tree/master/0136-single-number) |
+| [0287-find-the-duplicate-number](https://github.com/Saurabh-Yadav31/DSA/tree/master/0287-find-the-duplicate-number) |
 ## Hash Table
 |  |
 | ------- |
@@ -127,4 +130,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0918-maximum-sum-circular-subarray](https://github.com/Saurabh-Yadav31/DSA/tree/master/0918-maximum-sum-circular-subarray) |
+## Binary Search
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/Saurabh-Yadav31/DSA/tree/master/0287-find-the-duplicate-number) |
+## Pigeonhole Principle
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/Saurabh-Yadav31/DSA/tree/master/0287-find-the-duplicate-number) |
+## Floyd's Cycle Finding Algorithm
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/Saurabh-Yadav31/DSA/tree/master/0287-find-the-duplicate-number) |
 <!---LeetCode Topics End-->
