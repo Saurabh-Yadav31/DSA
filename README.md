@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0414-third-maximum-number](https://github.com/Saurabh-Yadav31/DSA/tree/master/0414-third-maximum-number) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Saurabh-Yadav31/DSA/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0485-max-consecutive-ones](https://github.com/Saurabh-Yadav31/DSA/tree/master/0485-max-consecutive-ones) |
+| [0724-find-pivot-index](https://github.com/Saurabh-Yadav31/DSA/tree/master/0724-find-pivot-index) |
 | [0918-maximum-sum-circular-subarray](https://github.com/Saurabh-Yadav31/DSA/tree/master/0918-maximum-sum-circular-subarray) |
 | [0989-add-to-array-form-of-integer](https://github.com/Saurabh-Yadav31/DSA/tree/master/0989-add-to-array-form-of-integer) |
 | [1260-shift-2d-grid](https://github.com/Saurabh-Yadav31/DSA/tree/master/1260-shift-2d-grid) |
@@ -115,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Saurabh-Yadav31/DSA/tree/master/0238-product-of-array-except-self) |
+| [0724-find-pivot-index](https://github.com/Saurabh-Yadav31/DSA/tree/master/0724-find-pivot-index) |
 | [1480-running-sum-of-1d-array](https://github.com/Saurabh-Yadav31/DSA/tree/master/1480-running-sum-of-1d-array) |
 ## Divide and Conquer
 |  |
