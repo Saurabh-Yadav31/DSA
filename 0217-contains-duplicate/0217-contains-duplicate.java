@@ -16,7 +16,8 @@ class Solution {
 // Algorithm
 // 1. Create a HashSet.
 // 2. Traverse the array.
-// 3. Check whether the current element already exists in the HashSet.
-// 4. If it exists, return true.
-// 5. Otherwise, add the current element to the HashSet.
-// 6. If the loop finishes, return false.
+// 3. If the current element already exists in the HashSet,
+//    return true.
+// 4. Otherwise, add the current element to the HashSet.
+// 5. If the traversal completes without finding duplicates,
+//    return false.
