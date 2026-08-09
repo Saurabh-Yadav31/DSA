@@ -24,3 +24,14 @@ class Solution {
         return answer;      
     }
 }
+// Algorithm:
+// 1. Create a HashSet and store all elements of nums1.
+// 2. Create another HashSet to store the common elements.
+// 3. Traverse nums2.
+// 4. If the current element exists in the first HashSet,
+//    add it to the result HashSet.
+// 5. Convert the result HashSet into an int array.
+// 6. Return the answer array.
+
+//Time: O(n + m) average
+//Space: O(n + m) in the worst case, including the result
