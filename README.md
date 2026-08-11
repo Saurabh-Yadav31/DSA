@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Saurabh-Yadav31/DSA/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/Saurabh-Yadav31/DSA/tree/master/0058-length-of-last-word) |
 | [0125-valid-palindrome](https://github.com/Saurabh-Yadav31/DSA/tree/master/0125-valid-palindrome) |
+| [0242-valid-anagram](https://github.com/Saurabh-Yadav31/DSA/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/Saurabh-Yadav31/DSA/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Saurabh-Yadav31/DSA/tree/master/0345-reverse-vowels-of-a-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/Saurabh-Yadav31/DSA/tree/master/0387-first-unique-character-in-a-string) |
@@ -69,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Saurabh-Yadav31/DSA/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/Saurabh-Yadav31/DSA/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/Saurabh-Yadav31/DSA/tree/master/0219-contains-duplicate-ii) |
+| [0242-valid-anagram](https://github.com/Saurabh-Yadav31/DSA/tree/master/0242-valid-anagram) |
 | [0349-intersection-of-two-arrays](https://github.com/Saurabh-Yadav31/DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Saurabh-Yadav31/DSA/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0387-first-unique-character-in-a-string](https://github.com/Saurabh-Yadav31/DSA/tree/master/0387-first-unique-character-in-a-string) |
@@ -78,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0049-group-anagrams](https://github.com/Saurabh-Yadav31/DSA/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/Saurabh-Yadav31/DSA/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/Saurabh-Yadav31/DSA/tree/master/0242-valid-anagram) |
 | [0349-intersection-of-two-arrays](https://github.com/Saurabh-Yadav31/DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Saurabh-Yadav31/DSA/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0414-third-maximum-number](https://github.com/Saurabh-Yadav31/DSA/tree/master/0414-third-maximum-number) |
