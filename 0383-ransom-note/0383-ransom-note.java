@@ -27,3 +27,9 @@ class Solution {
 // 5. If the count becomes negative, return false because the magazine
 //    does not contain enough of that character.
 // 6. If the entire ransomNote is processed successfully, return true.
+/*
+Time: O(n + m)
+n = length of magazine
+m = length of ransomNote
+Space: O(1) because the array always has only 26 elements.
+*/
