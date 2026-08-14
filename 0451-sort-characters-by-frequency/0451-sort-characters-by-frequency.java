@@ -1,4 +1,3 @@
-/*
 class Solution {
     public String frequencySort(String s) {
 
@@ -23,6 +22,7 @@ class Solution {
         return new String(answer);
     }
 }
+/*
 // Algorithm: (HashMap + Sorting (First Approach arrived))
 // 1. Create a HashMap to store each character and its frequency.
 // 2. Traverse the string and calculate the frequency of each character.
@@ -44,46 +44,3 @@ ArrayList     → stores unique characters temporarily for sorting
 char[]        → stores the final answer
 */
 
-import java.util.*;
-
-class Solution {
-    public String frequencySort(String s) {
-
-        HashMap<Character, Integer> map = new HashMap<>();
-
-        for (int i = 0; i < s.length(); i++) {
-            map.put(s.charAt(i), map.getOrDefault(s.charAt(i), 0) + 1);
-        }
-
-        ArrayList<Character>[] bucket = new ArrayList[s.length() + 1];
-
-        for (char c : map.keySet()) {
-            int frequency = map.get(c);
-
-            if (bucket[frequency] == null) {
-                bucket[frequency] = new ArrayList<>();
-            }
-
-            bucket[frequency].add(c);
-        }
-
-        char[] answer = new char[s.length()];
-        int index = 0;
-
-        for (int frequency = s.length(); frequency > 0; frequency--) {
-
-            if (bucket[frequency] != null) {
-
-                for (char c : bucket[frequency]) {
-
-                    for (int i = 0; i < frequency; i++) {
-                        answer[index] = c;
-                        index++;
-                    }
-                }
-            }
-        }
-
-        return new String(answer);
-    }
-}
