@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     public String frequencySort(String s) {
 
@@ -11,15 +13,16 @@ class Solution {
 
         chars.sort((a, b) -> map.get(b) - map.get(a));
 
-        StringBuilder result = new StringBuilder();
+        char[] answer = new char[s.length()];
+        int index = 0;
 
         for (char c : chars) {
             for (int i = 0; i < map.get(c); i++) {
-                result.append(c);
+                answer[index] = c;
+                index++;
             }
         }
 
-        return result.toString();
+        return new String(answer);
     }
 }
-     
