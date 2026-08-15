@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Saurabh-Yadav31/DSA/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/Saurabh-Yadav31/DSA/tree/master/0053-maximum-subarray) |
 | [0066-plus-one](https://github.com/Saurabh-Yadav31/DSA/tree/master/0066-plus-one) |
+| [0128-longest-consecutive-sequence](https://github.com/Saurabh-Yadav31/DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0136-single-number](https://github.com/Saurabh-Yadav31/DSA/tree/master/0136-single-number) |
 | [0189-rotate-array](https://github.com/Saurabh-Yadav31/DSA/tree/master/0189-rotate-array) |
 | [0217-contains-duplicate](https://github.com/Saurabh-Yadav31/DSA/tree/master/0217-contains-duplicate) |
@@ -74,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/Saurabh-Yadav31/DSA/tree/master/0001-two-sum) |
 | [0041-first-missing-positive](https://github.com/Saurabh-Yadav31/DSA/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/Saurabh-Yadav31/DSA/tree/master/0049-group-anagrams) |
+| [0128-longest-consecutive-sequence](https://github.com/Saurabh-Yadav31/DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0217-contains-duplicate](https://github.com/Saurabh-Yadav31/DSA/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/Saurabh-Yadav31/DSA/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/Saurabh-Yadav31/DSA/tree/master/0242-valid-anagram) |
@@ -187,4 +189,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0451-sort-characters-by-frequency](https://github.com/Saurabh-Yadav31/DSA/tree/master/0451-sort-characters-by-frequency) |
+## Union-Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/Saurabh-Yadav31/DSA/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
