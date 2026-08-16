@@ -74,3 +74,19 @@ class Solution {
         return maxLength;
     }
 }
+/*
+Algorithm — Optimal HashSet Approach
+Create a HashSet and insert all elements of the array into it.
+Initialize maxLength = 0.
+Traverse each number in the HashSet.
+Check whether number - 1 exists in the set.
+If number - 1 exists, skip the number because it is not the starting element of a sequence.
+If number - 1 does not exist, consider the number as the start of a consecutive sequence.
+Starting from this number, check whether number + 1, number + 2, and so on exist in the set.
+Count the length of the consecutive sequence.
+Update maxLength with the maximum sequence length found.
+Return maxLength.
+Complexity
+Time: O(n) average
+Space: O(n)
+*/
