@@ -1,5 +1,4 @@
-import java.util.Arrays;
-
+/*
 class Solution {
     public int longestConsecutive(int[] nums) {
 
@@ -27,7 +26,7 @@ class Solution {
         return maxLength;
     }
 }
-/*
+
 Algorithm —(Sorting Approach)
 If the array is empty, return 0.
 Sort the given array.
@@ -42,3 +41,36 @@ Complexity
 Time: O(n log n)
 Space: O(1) auxiliary space
 */
+
+import java.util.HashSet;
+
+class Solution {
+    public int longestConsecutive(int[] nums) {
+
+        HashSet<Integer> set = new HashSet<>();
+
+        // Add all elements to HashSet
+        for (int num : nums) {
+            set.add(num);
+        }
+        int maxLength = 0;
+        // Check every number
+        for (int num : set) {
+
+            // Start only if num is the first number
+            if (!set.contains(num - 1)) {
+
+                int current = num;
+                int currentLength = 1;
+
+                // Find consecutive numbers
+                while (set.contains(current + 1)) {
+                    current++;
+                    currentLength++;
+                }
+                maxLength = Math.max(maxLength, currentLength);
+            }
+        }
+        return maxLength;
+    }
+}
