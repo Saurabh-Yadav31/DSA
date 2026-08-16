@@ -6,7 +6,6 @@ class Solution {
         if (nums.length == 0) {
             return 0;
         }
-
         Arrays.sort(nums);
 
         int maxLength = 1;
@@ -23,10 +22,23 @@ class Solution {
             } else {
                 currentLength = 1;
             }
-
             maxLength = Math.max(maxLength, currentLength);
         }
-
         return maxLength;
     }
 }
+/*
+Algorithm —(Sorting Approach)
+If the array is empty, return 0.
+Sort the given array.
+Initialize currentLength = 1 and maxLength = 1.
+Traverse the array from the second element.
+If the current element is equal to the previous element, skip it.
+If the current element is exactly one greater than the previous element, increment currentLength.
+Otherwise, reset currentLength to 1.
+Update maxLength with the maximum of maxLength and currentLength.
+Return maxLength.
+Complexity
+Time: O(n log n)
+Space: O(1) auxiliary space
+*/
