@@ -12,6 +12,8 @@
 // 5. If either mapping conflicts, return false.
 // 6. Store both mappings in the arrays.
 // 7. After traversing the strings, return true.
+//Time: O(n)
+//Space: O(1) Always fixed size
 class Solution {
     public boolean isIsomorphic(String s, String t) {
 
