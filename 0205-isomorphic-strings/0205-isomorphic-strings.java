@@ -23,3 +23,17 @@ class Solution {
         return true;
     }
 }
+// Algorithm:
+// 1. If the lengths of s and t are different, return false.
+// 2. Create two HashMaps:
+//      - One for mapping characters from s → t.
+//      - One for mapping characters from t → s.
+// 3. Traverse both strings simultaneously.
+// 4. For every pair of characters:
+//      - Check if s character is already mapped to a different t character.
+//      - Check if t character is already mapped to a different s character.
+// 5. If either mapping conflicts, return false.
+// 6. Otherwise, store both mappings.
+// 7. After traversing the strings, return true.
+//Time: O(n) — we traverse the strings once.
+//Space: O(n) — in the worst case, the HashMaps store n character mappings.
