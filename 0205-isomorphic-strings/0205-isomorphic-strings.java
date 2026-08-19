@@ -1,15 +1,27 @@
+// Algorithm: (Fixed Array Approach)
+// 1. If the lengths of s and t are different, return false.
+// 2. Create two arrays of size 256:
+//      - mapST for mapping s → t.
+//      - mapTS for mapping t → s.
+// 3. Traverse both strings simultaneously.
+// 4. For every pair of characters:
+//      - Check whether the current character from s is already
+//        mapped to a different character in t.
+//      - Check whether the current character from t is already
+//        mapped to a different character in s.
+// 5. If either mapping conflicts, return false.
+// 6. Store both mappings in the arrays.
+// 7. After traversing the strings, return true.
 class Solution {
     public boolean isIsomorphic(String s, String t) {
 
         if (s.length() != t.length()) {
             return false;
         }
-
         int[] mapST = new int[256];
         int[] mapTS = new int[256];
 
         for (int i = 0; i < s.length(); i++) {
-
             char a = s.charAt(i);
             char b = t.charAt(i);
 
@@ -20,16 +32,14 @@ class Solution {
             if (mapTS[b] != 0 && mapTS[b] != a) {
                 return false;
             }
-
             mapST[a] = b;
             mapTS[b] = a;
         }
-
         return true;
     }
 }
 
-/*
+/* (Using HashMap)
 class Solution {
     public boolean isIsomorphic(String s, String t) {
 
