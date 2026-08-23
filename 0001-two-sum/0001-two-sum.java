@@ -13,3 +13,17 @@ class Solution {
         return new int[] {};
     }
 }
+// Algorithm:
+// 1. Create a HashMap to store:
+//      number → index
+// 2. Traverse the array from left to right.
+// 3. For each element:
+//      - Calculate the required difference:
+//            diff = target - nums[i]
+// 4. Check if diff already exists in the HashMap.
+//      - If it exists, return the index of diff and the current index.
+// 5. If diff does not exist, store the current number and its index
+//    in the HashMap.
+// 6. If no pair is found after traversing the array, return an empty array.
+// Time Complexity: O(n)
+// Space Complexity: O(n)
