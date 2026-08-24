@@ -21,3 +21,18 @@ class Solution {
         return maxArea;
     }
 }
+// Algorithm:
+// 1. Initialize two pointers:
+//      left = 0
+//      right = nums.length - 1
+// 2. Initialize maxArea = 0.
+// 3. While left < right:
+//      - Calculate width = right - left.
+//      - Calculate height = min(height[left], height[right]).
+//      - Calculate area = width * height.
+//      - Update maxArea if the current area is greater.
+//      - If height[left] < height[right], move left forward.
+//      - Otherwise, move right backward.
+// 4. Return maxArea.
+// Time Complexity: O(n)
+// Space Complexity: O(1)
