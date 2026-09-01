@@ -7,7 +7,6 @@ class Solution {
             if (set.contains(n)) {
                 return false;
             }
-
             set.add(n);
 
             int sum = 0;
