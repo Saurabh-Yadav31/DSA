@@ -8,6 +8,7 @@ class Solution {
                 return false;
             }
             set.add(n);
+
             int sum = 0;
 
             while (n > 0) {
@@ -28,3 +29,5 @@ class Solution {
 //    - Calculate the sum of squares of all digits of n.
 //    - Set n equal to this sum.
 // 3. If n becomes 1, return true.
+//Time Complexity: O(log n) per digit-sum calculation, with a small bounded number of iterations in practice.
+//Space Complexity: O(k), where k is the number of values stored in the HashSet.
