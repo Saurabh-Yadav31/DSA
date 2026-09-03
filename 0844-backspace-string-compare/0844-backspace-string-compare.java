@@ -20,7 +20,6 @@ class Solution {
                     break;
                 }
             }
-
             // Find next valid character in t
             while (j >= 0) {
                 if (t.charAt(j) == '#') {
@@ -33,21 +32,17 @@ class Solution {
                     break;
                 }
             }
-
             // One string has a valid character, the other does not
             if (i >= 0 != j >= 0) {
                 return false;
             }
-
             // Both have valid characters, but they differ
             if (i >= 0 && s.charAt(i) != t.charAt(j)) {
                 return false;
             }
-
             i--;
             j--;
         }
-
         return true;
     }
 }
