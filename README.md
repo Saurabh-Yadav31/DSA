@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/Saurabh-Yadav31/DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Saurabh-Yadav31/DSA/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0392-is-subsequence](https://github.com/Saurabh-Yadav31/DSA/tree/master/0392-is-subsequence) |
+| [0844-backspace-string-compare](https://github.com/Saurabh-Yadav31/DSA/tree/master/0844-backspace-string-compare) |
 ## String
 |  |
 | ------- |
@@ -39,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/Saurabh-Yadav31/DSA/tree/master/0392-is-subsequence) |
 | [0412-fizz-buzz](https://github.com/Saurabh-Yadav31/DSA/tree/master/0412-fizz-buzz) |
 | [0451-sort-characters-by-frequency](https://github.com/Saurabh-Yadav31/DSA/tree/master/0451-sort-characters-by-frequency) |
+| [0844-backspace-string-compare](https://github.com/Saurabh-Yadav31/DSA/tree/master/0844-backspace-string-compare) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Saurabh-Yadav31/DSA/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 ## String Matching
 |  |
@@ -150,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0844-backspace-string-compare](https://github.com/Saurabh-Yadav31/DSA/tree/master/0844-backspace-string-compare) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Saurabh-Yadav31/DSA/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 ## Greedy
 |  |
@@ -169,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0412-fizz-buzz](https://github.com/Saurabh-Yadav31/DSA/tree/master/0412-fizz-buzz) |
+| [0844-backspace-string-compare](https://github.com/Saurabh-Yadav31/DSA/tree/master/0844-backspace-string-compare) |
 | [1260-shift-2d-grid](https://github.com/Saurabh-Yadav31/DSA/tree/master/1260-shift-2d-grid) |
 | [1920-build-array-from-permutation](https://github.com/Saurabh-Yadav31/DSA/tree/master/1920-build-array-from-permutation) |
 | [1929-concatenation-of-array](https://github.com/Saurabh-Yadav31/DSA/tree/master/1929-concatenation-of-array) |
