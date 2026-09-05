@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0350-intersection-of-two-arrays-ii](https://github.com/Saurabh-Yadav31/DSA/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0392-is-subsequence](https://github.com/Saurabh-Yadav31/DSA/tree/master/0392-is-subsequence) |
 | [0844-backspace-string-compare](https://github.com/Saurabh-Yadav31/DSA/tree/master/0844-backspace-string-compare) |
+| [0905-sort-array-by-parity](https://github.com/Saurabh-Yadav31/DSA/tree/master/0905-sort-array-by-parity) |
 ## String
 |  |
 | ------- |
@@ -75,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0485-max-consecutive-ones](https://github.com/Saurabh-Yadav31/DSA/tree/master/0485-max-consecutive-ones) |
 | [0525-contiguous-array](https://github.com/Saurabh-Yadav31/DSA/tree/master/0525-contiguous-array) |
 | [0724-find-pivot-index](https://github.com/Saurabh-Yadav31/DSA/tree/master/0724-find-pivot-index) |
+| [0905-sort-array-by-parity](https://github.com/Saurabh-Yadav31/DSA/tree/master/0905-sort-array-by-parity) |
 | [0918-maximum-sum-circular-subarray](https://github.com/Saurabh-Yadav31/DSA/tree/master/0918-maximum-sum-circular-subarray) |
 | [0989-add-to-array-form-of-integer](https://github.com/Saurabh-Yadav31/DSA/tree/master/0989-add-to-array-form-of-integer) |
 | [1260-shift-2d-grid](https://github.com/Saurabh-Yadav31/DSA/tree/master/1260-shift-2d-grid) |
@@ -124,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0389-find-the-difference](https://github.com/Saurabh-Yadav31/DSA/tree/master/0389-find-the-difference) |
 | [0414-third-maximum-number](https://github.com/Saurabh-Yadav31/DSA/tree/master/0414-third-maximum-number) |
 | [0451-sort-characters-by-frequency](https://github.com/Saurabh-Yadav31/DSA/tree/master/0451-sort-characters-by-frequency) |
+| [0905-sort-array-by-parity](https://github.com/Saurabh-Yadav31/DSA/tree/master/0905-sort-array-by-parity) |
 ## Queue
 |  |
 | ------- |
