@@ -18,3 +18,20 @@ class Solution {
         return nums;
     }
 }
+
+/*Algorithm: Two pointers
+1. Initialize i = 0 for even indices.
+2. Initialize j = 1 for odd indices.
+3. While i and j are within the array:
+   a. Move i by 2 while nums[i] is even.
+      These values are already correctly placed.
+   b. Move j by 2 while nums[j] is odd.
+      These values are already correctly placed.
+   c. Now nums[i] is an odd number at an even index,
+      and nums[j] is an even number at an odd index.
+   d. Swap nums[i] and nums[j].
+4. Continue until all positions are correctly placed.
+5. Return nums.
+Time Complexity:  O(n)
+Space Complexity: O(1)
+*/
