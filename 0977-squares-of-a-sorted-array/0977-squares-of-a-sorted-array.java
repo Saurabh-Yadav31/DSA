@@ -20,11 +20,23 @@ class Solution {
         return result;
     }
 }
-
-
-
-
-
+/*
+Algorithm: Using two pointers approach
+1. Create a result array of the same size.
+2. Set left = 0 and right = n - 1.
+3. Set position = n - 1.
+4. While left <= right:
+   - Compare abs(nums[left]) and abs(nums[right]).
+   - If left value is larger:
+       put nums[left]² at result[position]
+       move left forward.
+   - Otherwise:
+       put nums[right]² at result[position]
+       move right backward.
+   - Move position backward.
+5. Return result.
+Time:  O(n)
+Space: O(n)
 
 
 
