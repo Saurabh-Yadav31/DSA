@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/Saurabh-Yadav31/DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0844-backspace-string-compare](https://github.com/Saurabh-Yadav31/DSA/tree/master/0844-backspace-string-compare) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Saurabh-Yadav31/DSA/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+| [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Saurabh-Yadav31/DSA/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 ## String Matching
 |  |
 | ------- |
@@ -236,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0219-contains-duplicate-ii](https://github.com/Saurabh-Yadav31/DSA/tree/master/0219-contains-duplicate-ii) |
 | [0643-maximum-average-subarray-i](https://github.com/Saurabh-Yadav31/DSA/tree/master/0643-maximum-average-subarray-i) |
+| [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Saurabh-Yadav31/DSA/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
