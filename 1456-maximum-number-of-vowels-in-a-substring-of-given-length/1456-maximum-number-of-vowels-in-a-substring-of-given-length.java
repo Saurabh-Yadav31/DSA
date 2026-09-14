@@ -30,3 +30,18 @@ class Solution {
         return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u';
     }
 }
+/*
+1. Initialize `count = 0` to store the number of vowels in the current window.
+2. Initialize `maxCount = 0` to store the maximum number of vowels found.
+3. Count the vowels in the first `k` characters of the string.
+4. Set `maxCount = count`.
+5. Start sliding the window from index `k` to the end:
+   - Remove the character leaving the window (`i - k`).
+   - If it is a vowel, decrement `count`.
+   - Add the character entering the window (`i`).
+   - If it is a vowel, increment `count`.
+   - Update `maxCount`.
+6. Return `maxCount`.
+Time Complexity: O(n)
+Space Complexity: O(1)
+*/
