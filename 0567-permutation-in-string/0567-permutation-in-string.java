@@ -30,3 +30,20 @@ class Solution {
         return true;
     }
 }
+/* Algorithm Fixed sliding window
+1.If s1 is longer than s2, return false.
+2.Create two frequency arrays of size 26:
+    2(a).count1 for characters in s1.
+    2(b).count2 for the current window in s2.
+3.Create the first window in s2 with size s1.length().
+4.Compare the frequency arrays.
+5.Slide the window one position at a time:
+    5(a).Add the new character entering the window.
+    5(b).Remove the character leaving the window.
+6.After each slide, compare the two frequency arrays.
+7.If the frequencies match, the current window is a permutation of s1, so return true.
+8.If no window matches, return false.
+
+Time Complexity: O(26 × n) → O(n)
+Space Complexity: O(26) → O(1)
+*/
