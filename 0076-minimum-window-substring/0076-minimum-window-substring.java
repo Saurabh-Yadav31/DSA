@@ -1,41 +1,38 @@
 class Solution {
     public String minWindow(String s, String t) {
-        HashMap<Character, Integer> required = new HashMap<>();
-        HashMap<Character, Integer> window = new HashMap<>();
+        int[] required = new int[128];
+        int[] window = new int[128];
 
         for (char c : t.toCharArray()) {
-            required.put(c, required.getOrDefault(c, 0) + 1);
+            required[c]++;
         }
 
         int left = 0;
-        int formed = 0;
-        int requiredCount = required.size();
-
-        int minLength = Integer.MAX_VALUE;
         int start = 0;
+        int minLength = Integer.MAX_VALUE;
+
+        int requiredChars = t.length();
+        int formedChars = 0;
 
         for (int right = 0; right < s.length(); right++) {
             char c = s.charAt(right);
+            window[c]++;
 
-            window.put(c, window.getOrDefault(c, 0) + 1);
-
-            if (required.containsKey(c) &&
-                window.get(c).intValue() == required.get(c).intValue()) {
-                formed++;
+            if (required[c] > 0 && window[c] <= required[c]) {
+                formedChars++;
             }
-
-            while (formed == requiredCount) {
+            while (formedChars == requiredChars) {
                 if (right - left + 1 < minLength) {
                     minLength = right - left + 1;
                     start = left;
                 }
 
                 char leftChar = s.charAt(left);
-                window.put(leftChar, window.get(leftChar) - 1);
+                window[leftChar]--;
 
-                if (required.containsKey(leftChar) &&
-                    window.get(leftChar) < required.get(leftChar)) {
-                    formed--;
+                if (required[leftChar] > 0 &&
+                    window[leftChar] < required[leftChar]) {
+                    formedChars--;
                 }
                 left++;
             }
