@@ -34,7 +34,7 @@ class Solution {
         return result;
     }
 }
-/* Algorithm
+/* Algorithm : Frequency Array + Fixed Sliding Window
 1.Create a frequency array countP for the characters in p.
 2.Create a frequency array countWindow for the current window in s.
 3.Set the window size equal to p.length().
