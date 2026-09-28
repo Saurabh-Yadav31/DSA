@@ -34,3 +34,19 @@ class Solution {
         return result;
     }
 }
+/* Algorithm
+1.Create a frequency array countP for the characters in p.
+2.Create a frequency array countWindow for the current window in s.
+3.Set the window size equal to p.length().
+4.Calculate the frequency of characters in the first window of s.
+5.Compare countP and countWindow. If they are equal, add index 0 to the result.
+6.Slide the window one position at a time:
+    6(a).Add the new character entering the window.
+    6(b).Remove the character leaving the window.
+7.Compare the two frequency arrays after each movement.
+8.If they are equal, add the starting index of the current window to the result.
+9.Return the result.
+
+Time Complexity: O(26 × n) → O(n)
+Space Complexity: O(26) → O(1)
+*/
