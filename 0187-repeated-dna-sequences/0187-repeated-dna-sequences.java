@@ -2,30 +2,39 @@ class Solution {
     public List<String> findRepeatedDnaSequences(String s) {
         List<String> result = new ArrayList<>();
 
-        HashMap<String, Integer> map = new HashMap<>();
-
-        for (int i = 0; i <= s.length() - 10; i++) {
-            String sequence = s.substring(i, i + 10);
-
-            map.put(sequence, map.getOrDefault(sequence, 0) + 1);
+        if (s.length() < 10) {
+            return result;
         }
-        for (String sequence : map.keySet()) {
-            if (map.get(sequence) > 1) {
-                result.add(sequence);
+
+        HashMap<Character, Integer> map = new HashMap<>();
+        map.put('A', 0);
+        map.put('C', 1);
+        map.put('G', 2);
+        map.put('T', 3);
+
+        HashSet<Integer> seen = new HashSet<>();
+        HashSet<Integer> added = new HashSet<>();
+
+        int code = 0;
+
+        for (int i = 0; i < 10; i++) {
+            code = (code << 2) | map.get(s.charAt(i));
+        }
+
+        seen.add(code);
+
+        for (int i = 10; i < s.length(); i++) {
+            code = ((code << 2) | map.get(s.charAt(i))) & ((1 << 20) - 1);
+
+            if (seen.contains(code)) {
+                if (!added.contains(code)) {
+                    result.add(s.substring(i - 9, i + 1));
+                    added.add(code);
+                }
+            } else {
+                seen.add(code);
             }
         }
         return result;
     }
 }
-/*
-1.Create a HashMap to store each 10-character DNA sequence and its frequency.
-2.Traverse the string from index 0 to s.length() - 10.
-3.Extract the 10-character substring starting at the current index.
-4.Add the substring to the HashMap and increase its frequency.
-5.Traverse through all sequences stored in the HashMap.
-6.If a sequence appears more than once, add it to the result list.
-7.Return the result list.
-
-Time Complexity: O(n)
-Space Complexity: O(n)
-*/
