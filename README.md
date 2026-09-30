@@ -91,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0485-max-consecutive-ones](https://github.com/Saurabh-Yadav31/DSA/tree/master/0485-max-consecutive-ones) |
 | [0525-contiguous-array](https://github.com/Saurabh-Yadav31/DSA/tree/master/0525-contiguous-array) |
 | [0643-maximum-average-subarray-i](https://github.com/Saurabh-Yadav31/DSA/tree/master/0643-maximum-average-subarray-i) |
+| [0713-subarray-product-less-than-k](https://github.com/Saurabh-Yadav31/DSA/tree/master/0713-subarray-product-less-than-k) |
 | [0724-find-pivot-index](https://github.com/Saurabh-Yadav31/DSA/tree/master/0724-find-pivot-index) |
 | [0904-fruit-into-baskets](https://github.com/Saurabh-Yadav31/DSA/tree/master/0904-fruit-into-baskets) |
 | [0905-sort-array-by-parity](https://github.com/Saurabh-Yadav31/DSA/tree/master/0905-sort-array-by-parity) |
@@ -219,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/Saurabh-Yadav31/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/Saurabh-Yadav31/DSA/tree/master/0238-product-of-array-except-self) |
 | [0525-contiguous-array](https://github.com/Saurabh-Yadav31/DSA/tree/master/0525-contiguous-array) |
+| [0713-subarray-product-less-than-k](https://github.com/Saurabh-Yadav31/DSA/tree/master/0713-subarray-product-less-than-k) |
 | [0724-find-pivot-index](https://github.com/Saurabh-Yadav31/DSA/tree/master/0724-find-pivot-index) |
 | [1004-max-consecutive-ones-iii](https://github.com/Saurabh-Yadav31/DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1480-running-sum-of-1d-array](https://github.com/Saurabh-Yadav31/DSA/tree/master/1480-running-sum-of-1d-array) |
@@ -247,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/Saurabh-Yadav31/DSA/tree/master/0287-find-the-duplicate-number) |
 | [0349-intersection-of-two-arrays](https://github.com/Saurabh-Yadav31/DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Saurabh-Yadav31/DSA/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0713-subarray-product-less-than-k](https://github.com/Saurabh-Yadav31/DSA/tree/master/0713-subarray-product-less-than-k) |
 | [1004-max-consecutive-ones-iii](https://github.com/Saurabh-Yadav31/DSA/tree/master/1004-max-consecutive-ones-iii) |
 ## Pigeonhole Principle
 |  |
@@ -269,6 +272,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0438-find-all-anagrams-in-a-string](https://github.com/Saurabh-Yadav31/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/Saurabh-Yadav31/DSA/tree/master/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/Saurabh-Yadav31/DSA/tree/master/0643-maximum-average-subarray-i) |
+| [0713-subarray-product-less-than-k](https://github.com/Saurabh-Yadav31/DSA/tree/master/0713-subarray-product-less-than-k) |
 | [0904-fruit-into-baskets](https://github.com/Saurabh-Yadav31/DSA/tree/master/0904-fruit-into-baskets) |
 | [1004-max-consecutive-ones-iii](https://github.com/Saurabh-Yadav31/DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1052-grumpy-bookstore-owner](https://github.com/Saurabh-Yadav31/DSA/tree/master/1052-grumpy-bookstore-owner) |
