@@ -5,7 +5,6 @@ class Solution {
         int maxLength = 0;
 
         for (int right = 0; right < nums.length; right++) {
-
             if (nums[right] == 0) {
                 zeroCount++;
             }
@@ -16,10 +15,8 @@ class Solution {
                 }
                 left++;
             }
-
             maxLength = Math.max(maxLength, right - left);
         }
-
         return maxLength;
     }
 }
