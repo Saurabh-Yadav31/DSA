@@ -15,3 +15,14 @@ class Solution {
         return result.toString();
     }
 }
+/*
+Algorithm — Longest Common Prefix
+1. Start from the first character of the first string.
+2. Compare that character with the character at the same position in every other string.
+3. If all characters match, add the character to the result.
+4. If any character does not match or a string ends, return the result.
+5. Continue until all possible characters are checked.
+6. Return the common prefix.
+Time Complexity: O(n × m)
+Space Complexity: O(1) excluding the output string.
+*/
