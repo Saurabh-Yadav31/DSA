@@ -26,3 +26,14 @@ class Solution {
         return result;
     }
 }
+/*
+1. Create a mapping for each Roman numeral to its integer value.
+2. Initialize result = 0.
+3. Traverse the string from left to right.
+4. Get the value of the current Roman numeral.
+5. If the current value is smaller than the next value, subtract the current value from result.
+6. Otherwise, add the current value to result.
+7. Return result.
+Time Complexity: O(n)
+Space Complexity: O(1)
+*/
