@@ -25,3 +25,15 @@ class Solution {
         return right - left - 1;
     }
 }
+/*
+1. Initialize start = 0 and maxLength = 0.
+2. Traverse each character as a possible center of a palindrome.
+3. Check for an odd-length palindrome by using the current character as the center.
+4. Check for an even-length palindrome by using the current character and the next character as the center.
+5. Expand outward while the characters on both sides are equal.
+6. Get the length of the palindrome found.
+7. If it is longer than the current maximum, update start and maxLength.
+8. Return the substring starting at start with length maxLength.
+Time Complexity: O(n²)
+Space Complexity: O(1)
+*/
