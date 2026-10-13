@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/Saurabh-Yadav31/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Saurabh-Yadav31/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/Saurabh-Yadav31/DSA/tree/master/0451-sort-characters-by-frequency) |
+| [0459-repeated-substring-pattern](https://github.com/Saurabh-Yadav31/DSA/tree/master/0459-repeated-substring-pattern) |
 | [0567-permutation-in-string](https://github.com/Saurabh-Yadav31/DSA/tree/master/0567-permutation-in-string) |
 | [0680-valid-palindrome-ii](https://github.com/Saurabh-Yadav31/DSA/tree/master/0680-valid-palindrome-ii) |
 | [0844-backspace-string-compare](https://github.com/Saurabh-Yadav31/DSA/tree/master/0844-backspace-string-compare) |
@@ -70,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Saurabh-Yadav31/DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0459-repeated-substring-pattern](https://github.com/Saurabh-Yadav31/DSA/tree/master/0459-repeated-substring-pattern) |
 ## Array
 |  |
 | ------- |
@@ -329,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Saurabh-Yadav31/DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0187-repeated-dna-sequences](https://github.com/Saurabh-Yadav31/DSA/tree/master/0187-repeated-dna-sequences) |
+| [0459-repeated-substring-pattern](https://github.com/Saurabh-Yadav31/DSA/tree/master/0459-repeated-substring-pattern) |
 ## Boyer–Moore String-Search Algorithm
 |  |
 | ------- |
@@ -346,4 +349,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Saurabh-Yadav31/DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0459-repeated-substring-pattern](https://github.com/Saurabh-Yadav31/DSA/tree/master/0459-repeated-substring-pattern) |
 <!---LeetCode Topics End-->
