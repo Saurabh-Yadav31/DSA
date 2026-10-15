@@ -1,28 +1,40 @@
 class Solution {
     public int compress(char[] chars) {
-        StringBuilder result = new StringBuilder();
-        int i = 0;
+        int n = chars.length;
+        int read = 0;
+        int write = 0;
 
-        while (i < chars.length) {
-            char current = chars[i];
+        while (read < n) {
+            char current = chars[read];
             int count = 0;
-
-            while (i < chars.length && chars[i] == current) {
+            while (read < n && chars[read] == current) {
+                read++;
                 count++;
-                i++;
             }
-
-            result.append(current);
+            chars[write++] = current;
 
             if (count > 1) {
-                result.append(count);
+                String num = String.valueOf(count);
+
+                for (int i = 0; i < num.length(); i++) {
+                    chars[write++] = num.charAt(i);
+                }
             }
         }
-
-        for (int j = 0; j < result.length(); j++) {
-            chars[j] = result.charAt(j);
-        }
-
-        return result.length();
+        return write;
     }
 }
+/*
+Algorithm — Two Pointers 
+1. Initialize two pointers: read = 0 to traverse the array and write = 0 to store compressed characters.
+2. While read is less than the array length:
+   - Store the current character chars[read] in current.
+   - Count its consecutive occurrences using the read pointer.
+3. Write current to chars[write] and increment write.
+4. If count > 1, convert the count into a string and write each digit into the array, incrementing write after each digit.
+5. Repeat until all characters have been processed.
+6. Return write, which represents the length of the compressed array.
+Complexity
+- Time Complexity: O(n)
+- Auxiliary Space Complexity:O(1)
+*/
