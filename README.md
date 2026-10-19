@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0389-find-the-difference](https://github.com/Saurabh-Yadav31/DSA/tree/master/0389-find-the-difference) |
 | [0392-is-subsequence](https://github.com/Saurabh-Yadav31/DSA/tree/master/0392-is-subsequence) |
 | [0412-fizz-buzz](https://github.com/Saurabh-Yadav31/DSA/tree/master/0412-fizz-buzz) |
+| [0415-add-strings](https://github.com/Saurabh-Yadav31/DSA/tree/master/0415-add-strings) |
 | [0424-longest-repeating-character-replacement](https://github.com/Saurabh-Yadav31/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Saurabh-Yadav31/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0443-string-compression](https://github.com/Saurabh-Yadav31/DSA/tree/master/0443-string-compression) |
@@ -201,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/Saurabh-Yadav31/DSA/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/Saurabh-Yadav31/DSA/tree/master/0202-happy-number) |
 | [0412-fizz-buzz](https://github.com/Saurabh-Yadav31/DSA/tree/master/0412-fizz-buzz) |
+| [0415-add-strings](https://github.com/Saurabh-Yadav31/DSA/tree/master/0415-add-strings) |
 | [0989-add-to-array-form-of-integer](https://github.com/Saurabh-Yadav31/DSA/tree/master/0989-add-to-array-form-of-integer) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Saurabh-Yadav31/DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
 ## Number Theory
@@ -234,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0412-fizz-buzz](https://github.com/Saurabh-Yadav31/DSA/tree/master/0412-fizz-buzz) |
+| [0415-add-strings](https://github.com/Saurabh-Yadav31/DSA/tree/master/0415-add-strings) |
 | [0844-backspace-string-compare](https://github.com/Saurabh-Yadav31/DSA/tree/master/0844-backspace-string-compare) |
 | [1260-shift-2d-grid](https://github.com/Saurabh-Yadav31/DSA/tree/master/1260-shift-2d-grid) |
 | [1920-build-array-from-permutation](https://github.com/Saurabh-Yadav31/DSA/tree/master/1920-build-array-from-permutation) |
