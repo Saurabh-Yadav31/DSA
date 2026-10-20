@@ -1,42 +1,33 @@
 class Solution {
     public String convert(String s, int numRows) {
-
         if (numRows == 1 || numRows >= s.length()) {
             return s;
         }
 
-        StringBuilder[] rows = new StringBuilder[numRows];
+        StringBuilder result = new StringBuilder();
+        int n = s.length();
 
-        for (int i = 0; i < numRows; i++) {
-            rows[i] = new StringBuilder();
-        }
+        for (int row = 0; row < numRows; row++) {
+            int index = row;
+            boolean goingDown = true;
 
-        int currentRow = 0;
-        boolean goingDown = true;
+            while (index < n) {
+                result.append(s.charAt(index));
+                if (row == 0 || row == numRows - 1) {
+                    index += 2 * (numRows - 1);
+                } else {
+                    int step;
+                    if (goingDown) {
+                        step = 2 * (numRows - 1 - row);
+                    } else {
+                        step = 2 * row;
+                    }
 
-        for (int i = 0; i < s.length(); i++) {
-
-            rows[currentRow].append(s.charAt(i));
-
-            if (currentRow == 0) {
-                goingDown = true;
-            } else if (currentRow == numRows - 1) {
-                goingDown = false;
+                    index += step;
+                    goingDown = !goingDown;
+                }
             }
-
-            if (goingDown) {
-                currentRow++;
-            } else {
-                currentRow--;
-            }
         }
-
-        StringBuilder ans = new StringBuilder();
-
-        for (StringBuilder row : rows) {
-            ans.append(row);
-        }
-
-        return ans.toString();
+        return result.toString();
     }
 }
