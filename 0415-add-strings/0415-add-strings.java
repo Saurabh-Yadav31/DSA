@@ -22,3 +22,18 @@ class Solution {
         return result.reverse().toString();
     }
 }
+/*
+1. Initialize two pointers, i = num1.length() - 1 and j = num2.length() - 1, to traverse both strings from right to left.
+2. Initialize carry = 0 and a StringBuilder named result.
+3. While i >= 0, j >= 0, or carry > 0:
+   - Initialize sum = carry.
+   - If i >= 0, add the digit from num1 to sum and decrement i.
+   - If j >= 0, add the digit from num2 to sum and decrement j.
+   - Append sum % 10 to result.
+   - Update carry = sum / 10.
+4. Reverse result because the digits were appended from right to left.
+5. Return result.toString().
+Complexity
+- Time Complexity: \(O(\max(n,m))\) — each digit is processed once, and reversing the result takes linear time.
+- Space Complexity: \(O(\max(n,m))\) — the StringBuilder stores the resulting sum.
+*/
