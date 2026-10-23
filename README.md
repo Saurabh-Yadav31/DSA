@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Saurabh-Yadav31/DSA/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/Saurabh-Yadav31/DSA/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/Saurabh-Yadav31/DSA/tree/master/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/Saurabh-Yadav31/DSA/tree/master/0054-spiral-matrix) |
 | [0066-plus-one](https://github.com/Saurabh-Yadav31/DSA/tree/master/0066-plus-one) |
 | [0075-sort-colors](https://github.com/Saurabh-Yadav31/DSA/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Saurabh-Yadav31/DSA/tree/master/0088-merge-sorted-array) |
@@ -231,10 +232,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/Saurabh-Yadav31/DSA/tree/master/0036-valid-sudoku) |
+| [0054-spiral-matrix](https://github.com/Saurabh-Yadav31/DSA/tree/master/0054-spiral-matrix) |
 | [1260-shift-2d-grid](https://github.com/Saurabh-Yadav31/DSA/tree/master/1260-shift-2d-grid) |
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/Saurabh-Yadav31/DSA/tree/master/0054-spiral-matrix) |
 | [0412-fizz-buzz](https://github.com/Saurabh-Yadav31/DSA/tree/master/0412-fizz-buzz) |
 | [0415-add-strings](https://github.com/Saurabh-Yadav31/DSA/tree/master/0415-add-strings) |
 | [0844-backspace-string-compare](https://github.com/Saurabh-Yadav31/DSA/tree/master/0844-backspace-string-compare) |
