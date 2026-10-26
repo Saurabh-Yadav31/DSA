@@ -26,3 +26,20 @@ class Solution {
         }
     }
 }
+/*
+Algorithm
+1. Get the size of the square matrix, n.
+2. Transpose the matrix:
+   - Iterate through each row using i.
+   - Iterate through columns using j = i + 1 to avoid swapping elements twice.
+   - Swap matrix[i][j] with matrix[j][i].
+3. Reverse each row:
+   - Initialize two pointers, left = 0 and right = n - 1.
+   - Swap the elements at these positions while left < right.
+   - Increment left and decrement right.
+4. The matrix is now rotated 90° clockwise in place.
+
+Complexity
+- Time Complexity: O(n^2) — transposing and reversing all rows take quadratic time.
+- Auxiliary Space Complexity: O(1) — the operation modifies the original matrix using only a temporary variable and pointers.
+*/
